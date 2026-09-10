@@ -1,0 +1,3415 @@
+{
+  "study_metadata": {
+    "conducted_at": "2026-09-09T22:46:19.461Z",
+    "mode": "deep (structural + domain age)",
+    "dataset_source": "PhishTank (phishtank.org)",
+    "dataset_url": "https://data.phishtank.com/data/online-valid.csv",
+    "sample_size": 100,
+    "methodology": "Random sample, no replacement, drawn from PhishTank's live verified-phishing feed.",
+    "engine_tested": "PhishGuard URL Engine v1.0 + Domain Age Enrichment v1.0 (src/engines/url-engine.js + src/domain-age.js)"
+  },
+  "summary": {
+    "total_sampled": 100,
+    "successfully_parsed": 100,
+    "parse_errors": 0,
+    "detection_rate_pct": "2.0",
+    "high_confidence_detection_rate_pct": "0.0",
+    "average_phishscore": "11.9",
+    "false_negatives": 98
+  },
+  "domain_age_stats": {
+    "rdap_lookup_success_count": 0,
+    "rdap_lookup_success_rate_pct": "0.0",
+    "structural_only_detection_rate_pct": "2.0",
+    "blended_detection_rate_pct": "2.0",
+    "improvement_pct_points": "0.0",
+    "age_weight_used": 0.25,
+    "average_domain_age_days": null
+  },
+  "dimension_averages": {
+    "lexical_analysis": "1.2",
+    "domain_entropy": "8.9",
+    "brand_impersonation": "16.1",
+    "tld_risk": "25.6",
+    "structural_anomalies": "2.4",
+    "redirect_risk": "7.5"
+  },
+  "detailed_results": [
+    {
+      "url": "https://qrco.de/bfWgJ7",
+      "domain": "qrco.de",
+      "phish_score": 19,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "URL shortener \"qrco.de\" detected — true destination hidden"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 80
+      },
+      "metadata": {
+        "entropy": "2.00",
+        "tld": ".de",
+        "subdomain_depth": 0,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 22,
+        "analyzed_at": "2026-09-09T22:46:21.638Z",
+        "analysis_ms": 6
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "http://www.pcn-noticym.cyou/com/",
+      "domain": "www.pcn-noticym.cyou",
+      "phish_score": 19,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "High-risk TLD \".cyou\" — frequently abused in phishing campaigns"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 93,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "3.10",
+        "tld": ".cyou",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 32,
+        "analyzed_at": "2026-09-09T22:46:21.643Z",
+        "analysis_ms": 3
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://awayliahbii.blogspot.com/",
+      "domain": "awayliahbii.blogspot.com",
+      "phish_score": 18,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "medium",
+      "signals": [
+        "URL shortener detected — hides true destination",
+        "URL shortener \"t.co\" detected — true destination hidden"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 30,
+        "redirect_risk": 80
+      },
+      "metadata": {
+        "entropy": "2.75",
+        "tld": ".com",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 33,
+        "analyzed_at": "2026-09-09T22:46:21.646Z",
+        "analysis_ms": 2
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "http://allegro-lokalnie.65433y434.surf",
+      "domain": "allegro-lokalnie.65433y434.surf",
+      "phish_score": 28,
+      "verdict": "UNCERTAIN",
+      "risk_level": "medium",
+      "recommendation": "Proceed with caution. Verify the sender and destination before clicking.",
+      "confidence": "low",
+      "signals": [
+        "Brand name \"allegro\" embedded in suspicious domain"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 85,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.11",
+        "tld": ".surf",
+        "subdomain_depth": 1,
+        "brand_findings": [
+          {
+            "brand": "allegro",
+            "type": "contains",
+            "confidence": 85
+          }
+        ],
+        "homoglyphs": 0,
+        "url_length": 38,
+        "analyzed_at": "2026-09-09T22:46:21.651Z",
+        "analysis_ms": 4
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://server-synchronization.pages.dev/",
+      "domain": "server-synchronization.pages.dev",
+      "phish_score": 4,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.32",
+        "tld": ".dev",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 41,
+        "analyzed_at": "2026-09-09T22:46:21.669Z",
+        "analysis_ms": 16
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://sdjtjf.weebly.com/",
+      "domain": "sdjtjf.weebly.com",
+      "phish_score": 0,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.25",
+        "tld": ".com",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 26,
+        "analyzed_at": "2026-09-09T22:46:21.719Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://qrco.de/bgf9eL",
+      "domain": "qrco.de",
+      "phish_score": 19,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "URL shortener \"qrco.de\" detected — true destination hidden"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 80
+      },
+      "metadata": {
+        "entropy": "2.00",
+        "tld": ".de",
+        "subdomain_depth": 0,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 22,
+        "analyzed_at": "2026-09-09T22:46:21.726Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://mxeub9.info/7oBbyg",
+      "domain": "mxeub9.info",
+      "phish_score": 12,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "High-risk TLD \".info\" — frequently abused in phishing campaigns"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 60,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.58",
+        "tld": ".info",
+        "subdomain_depth": 0,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 26,
+        "analyzed_at": "2026-09-09T22:46:21.732Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://magical-dasik-88fea6.netlify.app/",
+      "domain": "magical-dasik-88fea6.netlify.app",
+      "phish_score": 6,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "Suspicious URL pattern detected"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 15,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.81",
+        "tld": ".app",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 41,
+        "analyzed_at": "2026-09-09T22:46:21.736Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://patient-combination-490511.framer.app/",
+      "domain": "patient-combination-490511.framer.app",
+      "phish_score": 6,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "Suspicious URL pattern detected"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 15,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.25",
+        "tld": ".app",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 46,
+        "analyzed_at": "2026-09-09T22:46:21.748Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://naissess.xjfllxa.cn/eD9490/index",
+      "domain": "naissess.xjfllxa.cn",
+      "phish_score": 4,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.24",
+        "tld": ".cn",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 40,
+        "analyzed_at": "2026-09-09T22:46:21.750Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://duolingo-renouvellements.bolt.host/",
+      "domain": "duolingo-renouvellements.bolt.host",
+      "phish_score": 28,
+      "verdict": "UNCERTAIN",
+      "risk_level": "medium",
+      "recommendation": "Proceed with caution. Verify the sender and destination before clicking.",
+      "confidence": "low",
+      "signals": [
+        "Brand name \"ing\" embedded in suspicious domain"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 85,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.00",
+        "tld": ".host",
+        "subdomain_depth": 1,
+        "brand_findings": [
+          {
+            "brand": "ing",
+            "type": "contains",
+            "confidence": 85
+          }
+        ],
+        "homoglyphs": 0,
+        "url_length": 43,
+        "analyzed_at": "2026-09-09T22:46:21.756Z",
+        "analysis_ms": 2
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://ledge-applive.wixstudio.com/us-en",
+      "domain": "ledge-applive.wixstudio.com",
+      "phish_score": 0,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.95",
+        "tld": ".com",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 41,
+        "analyzed_at": "2026-09-09T22:46:21.758Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://l.ead.me/bgbmO7",
+      "domain": "l.ead.me",
+      "phish_score": 4,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "1.58",
+        "tld": ".me",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 23,
+        "analyzed_at": "2026-09-09T22:46:21.764Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://postaorganizzata4x9.blob.core.windows.net/7oc0hpxj21/ZrrXroo.html",
+      "domain": "postaorganizzata4x9.blob.core.windows.net",
+      "phish_score": 3,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "Deep subdomain structure"
+      ],
+      "dimensions": {
+        "lexical_analysis": 15,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.52",
+        "tld": ".net",
+        "subdomain_depth": 3,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 73,
+        "analyzed_at": "2026-09-09T22:46:21.767Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://oman-2023.pages.dev/",
+      "domain": "oman-2023.pages.dev",
+      "phish_score": 4,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.32",
+        "tld": ".dev",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 28,
+        "analyzed_at": "2026-09-09T22:46:21.770Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://f005.backblazeb2.com/file/besala/Cloud+Storage+FlowCloud+Storage+Flow1......HTM",
+      "domain": "f005.backblazeb2.com",
+      "phish_score": 2,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "Unusually long URL"
+      ],
+      "dimensions": {
+        "lexical_analysis": 8,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.85",
+        "tld": ".com",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 87,
+        "analyzed_at": "2026-09-09T22:46:21.776Z",
+        "analysis_ms": 2
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://kuiecunlogie.webflow.io/",
+      "domain": "kuiecunlogie.webflow.io",
+      "phish_score": 4,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.52",
+        "tld": ".io",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 32,
+        "analyzed_at": "2026-09-09T22:46:21.795Z",
+        "analysis_ms": 2
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://ff54f500-ee37-4e3d-99d6-de2da445d58c-00-16i9q5k04x3i1.janeway.replit.dev/",
+      "domain": "ff54f500-ee37-4e3d-99d6-de2da445d58c-00-16i9q5k04x3i1.janeway.replit.dev",
+      "phish_score": 7,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "medium",
+      "signals": [
+        "Unusually long URL",
+        "Suspicious URL pattern detected"
+      ],
+      "dimensions": {
+        "lexical_analysis": 8,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 15,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.58",
+        "tld": ".dev",
+        "subdomain_depth": 2,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 81,
+        "analyzed_at": "2026-09-09T22:46:21.799Z",
+        "analysis_ms": 3
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://qrco.de/bgcEpx",
+      "domain": "qrco.de",
+      "phish_score": 19,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "URL shortener \"qrco.de\" detected — true destination hidden"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 80
+      },
+      "metadata": {
+        "entropy": "2.00",
+        "tld": ".de",
+        "subdomain_depth": 0,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 22,
+        "analyzed_at": "2026-09-09T22:46:21.801Z",
+        "analysis_ms": 0
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://dbs.polimenopietrosrl.com/sg/public/",
+      "domain": "dbs.polimenopietrosrl.com",
+      "phish_score": 2,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "Elevated domain entropy (3.22)"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 35,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "3.22",
+        "tld": ".com",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 44,
+        "analyzed_at": "2026-09-09T22:46:21.807Z",
+        "analysis_ms": 2
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://gov-zcg.help/",
+      "domain": "gov-zcg.help",
+      "phish_score": 14,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "High-risk TLD \".help\" — frequently abused in phishing campaigns"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 70,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.52",
+        "tld": ".help",
+        "subdomain_depth": 0,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 21,
+        "analyzed_at": "2026-09-09T22:46:21.813Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://hi.yhhnjbd.cyou/",
+      "domain": "hi.yhhnjbd.cyou",
+      "phish_score": 20,
+      "verdict": "UNCERTAIN",
+      "risk_level": "medium",
+      "recommendation": "Proceed with caution. Verify the sender and destination before clicking.",
+      "confidence": "medium",
+      "signals": [
+        "Unusual consonant/vowel ratio — possible generated domain",
+        "High-risk TLD \".cyou\" — frequently abused in phishing campaigns"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 25,
+        "brand_impersonation": 0,
+        "tld_risk": 93,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.52",
+        "tld": ".cyou",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 24,
+        "analyzed_at": "2026-09-09T22:46:21.814Z",
+        "analysis_ms": 0
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "http://bhdvalidar.webcindario.com",
+      "domain": "bhdvalidar.webcindario.com",
+      "phish_score": 26,
+      "verdict": "UNCERTAIN",
+      "risk_level": "medium",
+      "recommendation": "Proceed with caution. Verify the sender and destination before clicking.",
+      "confidence": "medium",
+      "signals": [
+        "Elevated domain entropy (3.28)",
+        "Brand name \"va\" embedded in suspicious domain"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 35,
+        "brand_impersonation": 85,
+        "tld_risk": 0,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "3.28",
+        "tld": ".com",
+        "subdomain_depth": 1,
+        "brand_findings": [
+          {
+            "brand": "va",
+            "type": "contains",
+            "confidence": 85
+          }
+        ],
+        "homoglyphs": 0,
+        "url_length": 33,
+        "analyzed_at": "2026-09-09T22:46:21.817Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://wheejvv1.wixstudio.com/outlijdooj",
+      "domain": "wheejvv1.wixstudio.com",
+      "phish_score": 0,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.95",
+        "tld": ".com",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 41,
+        "analyzed_at": "2026-09-09T22:46:21.822Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://allegrolokainie.pl-24338.sbs",
+      "domain": "allegrolokainie.pl-24338.sbs",
+      "phish_score": 42,
+      "verdict": "SUSPICIOUS",
+      "risk_level": "high",
+      "recommendation": "Treat with extreme caution. Verify through official channels before proceeding.",
+      "confidence": "medium",
+      "signals": [
+        "Brand name \"allegro\" embedded in suspicious domain",
+        "High-risk TLD \".sbs\" — frequently abused in phishing campaigns"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 85,
+        "tld_risk": 90,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.75",
+        "tld": ".sbs",
+        "subdomain_depth": 1,
+        "brand_findings": [
+          {
+            "brand": "allegro",
+            "type": "contains",
+            "confidence": 85
+          }
+        ],
+        "homoglyphs": 0,
+        "url_length": 36,
+        "analyzed_at": "2026-09-09T22:46:21.827Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "http://iwl-tp313-tna6zp-93ap-5crv.pages.dev/",
+      "domain": "iwl-tp313-tna6zp-93ap-5crv.pages.dev",
+      "phish_score": 6,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "Suspicious URL pattern detected"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 15,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.32",
+        "tld": ".dev",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 44,
+        "analyzed_at": "2026-09-09T22:46:21.828Z",
+        "analysis_ms": 0
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://geodik.com/RbrA7YLbya.nara.jp",
+      "domain": "geodik.com",
+      "phish_score": 0,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.58",
+        "tld": ".com",
+        "subdomain_depth": 0,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 37,
+        "analyzed_at": "2026-09-09T22:46:21.832Z",
+        "analysis_ms": 0
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://dooror.com/click/tnfdhjrbjw",
+      "domain": "dooror.com",
+      "phish_score": 0,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "1.46",
+        "tld": ".com",
+        "subdomain_depth": 0,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 35,
+        "analyzed_at": "2026-09-09T22:46:21.836Z",
+        "analysis_ms": 2
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://qrco.de/bgaUaX",
+      "domain": "qrco.de",
+      "phish_score": 19,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "URL shortener \"qrco.de\" detected — true destination hidden"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 80
+      },
+      "metadata": {
+        "entropy": "2.00",
+        "tld": ".de",
+        "subdomain_depth": 0,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 22,
+        "analyzed_at": "2026-09-09T22:46:21.840Z",
+        "analysis_ms": 0
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://web.tegccm.top",
+      "domain": "web.tegccm.top",
+      "phish_score": 18,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "High-risk TLD \".top\" — frequently abused in phishing campaigns"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 88,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.25",
+        "tld": ".top",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 22,
+        "analyzed_at": "2026-09-09T22:46:21.841Z",
+        "analysis_ms": 0
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://ia.govqwez.autos/dmv",
+      "domain": "ia.govqwez.autos",
+      "phish_score": 35,
+      "verdict": "UNCERTAIN",
+      "risk_level": "medium",
+      "recommendation": "Proceed with caution. Verify the sender and destination before clicking.",
+      "confidence": "medium",
+      "signals": [
+        "Brand \"dmv\" in URL path — credential harvesting likely",
+        "High-risk TLD \".autos\" — frequently abused in phishing campaigns"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 75,
+        "tld_risk": 70,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.81",
+        "tld": ".autos",
+        "subdomain_depth": 1,
+        "brand_findings": [
+          {
+            "brand": "dmv",
+            "type": "path_only",
+            "confidence": 75
+          }
+        ],
+        "homoglyphs": 0,
+        "url_length": 28,
+        "analyzed_at": "2026-09-09T22:46:21.845Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://mailbox-dpkjr4w7vaw1.edgeone.dev/",
+      "domain": "mailbox-dpkjr4w7vaw1.edgeone.dev",
+      "phish_score": 28,
+      "verdict": "UNCERTAIN",
+      "risk_level": "medium",
+      "recommendation": "Proceed with caution. Verify the sender and destination before clicking.",
+      "confidence": "low",
+      "signals": [
+        "Brand name \"va\" embedded in suspicious domain"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 85,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.13",
+        "tld": ".dev",
+        "subdomain_depth": 1,
+        "brand_findings": [
+          {
+            "brand": "va",
+            "type": "contains",
+            "confidence": 85
+          }
+        ],
+        "homoglyphs": 0,
+        "url_length": 41,
+        "analyzed_at": "2026-09-09T22:46:21.847Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://iy7kwx.top/o/ix118/7316975282811136#merchantpay",
+      "domain": "iy7kwx.top",
+      "phish_score": 18,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "High-risk TLD \".top\" — frequently abused in phishing campaigns"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 88,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.58",
+        "tld": ".top",
+        "subdomain_depth": 0,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 55,
+        "analyzed_at": "2026-09-09T22:46:21.851Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://einloggen-2kunden7c3-elstr.my-app-kunden.com/g/static/s/roboto/v51/de/dk2055b.php",
+      "domain": "einloggen-2kunden7c3-elstr.my-app-kunden.com",
+      "phish_score": 6,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "high",
+      "signals": [
+        "Multiple hyphens in domain",
+        "Unusually long URL",
+        "Elevated domain entropy (3.24)",
+        "Suspicious URL pattern detected"
+      ],
+      "dimensions": {
+        "lexical_analysis": 18,
+        "domain_entropy": 35,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 15,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "3.24",
+        "tld": ".com",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 89,
+        "analyzed_at": "2026-09-09T22:46:21.855Z",
+        "analysis_ms": 2
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://animevanguards.netlify.app/",
+      "domain": "animevanguards.netlify.app",
+      "phish_score": 28,
+      "verdict": "UNCERTAIN",
+      "risk_level": "medium",
+      "recommendation": "Proceed with caution. Verify the sender and destination before clicking.",
+      "confidence": "medium",
+      "signals": [
+        "Brand name \"vanguard\" embedded in suspicious domain",
+        "Brand name \"va\" embedded in suspicious domain"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 85,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.81",
+        "tld": ".app",
+        "subdomain_depth": 1,
+        "brand_findings": [
+          {
+            "brand": "vanguard",
+            "type": "contains",
+            "confidence": 85
+          },
+          {
+            "brand": "va",
+            "type": "contains",
+            "confidence": 85
+          }
+        ],
+        "homoglyphs": 0,
+        "url_length": 35,
+        "analyzed_at": "2026-09-09T22:46:21.857Z",
+        "analysis_ms": 2
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://supportrunbox.weebly.com/",
+      "domain": "supportrunbox.weebly.com",
+      "phish_score": 0,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.25",
+        "tld": ".com",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 33,
+        "analyzed_at": "2026-09-09T22:46:21.860Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://allegro.3000h0h.forum",
+      "domain": "allegro.3000h0h.forum",
+      "phish_score": 28,
+      "verdict": "UNCERTAIN",
+      "risk_level": "medium",
+      "recommendation": "Proceed with caution. Verify the sender and destination before clicking.",
+      "confidence": "low",
+      "signals": [
+        "Brand name \"allegro\" embedded in suspicious domain"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 85,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "1.38",
+        "tld": ".forum",
+        "subdomain_depth": 1,
+        "brand_findings": [
+          {
+            "brand": "allegro",
+            "type": "contains",
+            "confidence": 85
+          }
+        ],
+        "homoglyphs": 0,
+        "url_length": 29,
+        "analyzed_at": "2026-09-09T22:46:21.863Z",
+        "analysis_ms": 2
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://talkkkerrkkrt.weebly.com/",
+      "domain": "talkkkerrkkrt.weebly.com",
+      "phish_score": 0,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.25",
+        "tld": ".com",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 33,
+        "analyzed_at": "2026-09-09T22:46:21.866Z",
+        "analysis_ms": 2
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://carrefour-pass-espace.com/fr",
+      "domain": "carrefour-pass-espace.com",
+      "phish_score": 5,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "medium",
+      "signals": [
+        "Multiple hyphens in domain",
+        "Elevated domain entropy (3.20)",
+        "Suspicious URL pattern detected"
+      ],
+      "dimensions": {
+        "lexical_analysis": 10,
+        "domain_entropy": 35,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 15,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "3.20",
+        "tld": ".com",
+        "subdomain_depth": 0,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 36,
+        "analyzed_at": "2026-09-09T22:46:21.874Z",
+        "analysis_ms": 2
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://jp-mail.vercel.app/",
+      "domain": "jp-mail.vercel.app",
+      "phish_score": 4,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.25",
+        "tld": ".app",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 27,
+        "analyzed_at": "2026-09-09T22:46:21.877Z",
+        "analysis_ms": 2
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://www.dpdlocagm.cyou/com/",
+      "domain": "www.dpdlocagm.cyou",
+      "phish_score": 19,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "High-risk TLD \".cyou\" — frequently abused in phishing campaigns"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 93,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.95",
+        "tld": ".cyou",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 31,
+        "analyzed_at": "2026-09-09T22:46:21.881Z",
+        "analysis_ms": 2
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://l.ead.me/bgc70M",
+      "domain": "l.ead.me",
+      "phish_score": 4,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "1.58",
+        "tld": ".me",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 23,
+        "analyzed_at": "2026-09-09T22:46:21.883Z",
+        "analysis_ms": 0
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://olx-pl.ayacuy.icu/payment/48a054530da1/millennium",
+      "domain": "olx-pl.ayacuy.icu",
+      "phish_score": 17,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "High-risk TLD \".icu\" — frequently abused in phishing campaigns"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 85,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "1.92",
+        "tld": ".icu",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 57,
+        "analyzed_at": "2026-09-09T22:46:21.889Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://www.llegolamejoroportunafllmx.com/",
+      "domain": "www.llegolamejoroportunafllmx.com",
+      "phish_score": 2,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "Elevated domain entropy (3.54)"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 35,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "3.54",
+        "tld": ".com",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 42,
+        "analyzed_at": "2026-09-09T22:46:21.893Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "http://allegrolokalnie.lokalna-ofera970220303.biz",
+      "domain": "allegrolokalnie.lokalna-ofera970220303.biz",
+      "phish_score": 39,
+      "verdict": "UNCERTAIN",
+      "risk_level": "medium",
+      "recommendation": "Proceed with caution. Verify the sender and destination before clicking.",
+      "confidence": "medium",
+      "signals": [
+        "Elevated domain entropy (3.66)",
+        "Brand name \"allegro\" embedded in suspicious domain",
+        "High-risk TLD \".biz\" — frequently abused in phishing campaigns"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 35,
+        "brand_impersonation": 85,
+        "tld_risk": 65,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "3.66",
+        "tld": ".biz",
+        "subdomain_depth": 1,
+        "brand_findings": [
+          {
+            "brand": "allegro",
+            "type": "contains",
+            "confidence": 85
+          }
+        ],
+        "homoglyphs": 0,
+        "url_length": 49,
+        "analyzed_at": "2026-09-09T22:46:21.895Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://rabyweb-home.wixstudio.com/enus",
+      "domain": "rabyweb-home.wixstudio.com",
+      "phish_score": 0,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.95",
+        "tld": ".com",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 39,
+        "analyzed_at": "2026-09-09T22:46:21.897Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://qrco.de/bgaH91",
+      "domain": "qrco.de",
+      "phish_score": 19,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "URL shortener \"qrco.de\" detected — true destination hidden"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 80
+      },
+      "metadata": {
+        "entropy": "2.00",
+        "tld": ".de",
+        "subdomain_depth": 0,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 22,
+        "analyzed_at": "2026-09-09T22:46:21.899Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://kleinanzelgen-deutch.zg-longzhulive.com/3133005?safe=537108783&lang=de",
+      "domain": "kleinanzelgen-deutch.zg-longzhulive.com",
+      "phish_score": 3,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "medium",
+      "signals": [
+        "Unusually long URL",
+        "Elevated domain entropy (3.38)"
+      ],
+      "dimensions": {
+        "lexical_analysis": 8,
+        "domain_entropy": 35,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "3.38",
+        "tld": ".com",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 78,
+        "analyzed_at": "2026-09-09T22:46:21.905Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "http://allegro.pl-3146728.lol",
+      "domain": "allegro.pl-3146728.lol",
+      "phish_score": 30,
+      "verdict": "UNCERTAIN",
+      "risk_level": "medium",
+      "recommendation": "Proceed with caution. Verify the sender and destination before clicking.",
+      "confidence": "medium",
+      "signals": [
+        "Elevated domain entropy (3.32)",
+        "Brand name \"allegro\" embedded in suspicious domain"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 35,
+        "brand_impersonation": 85,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "3.32",
+        "tld": ".lol",
+        "subdomain_depth": 1,
+        "brand_findings": [
+          {
+            "brand": "allegro",
+            "type": "contains",
+            "confidence": 85
+          }
+        ],
+        "homoglyphs": 0,
+        "url_length": 29,
+        "analyzed_at": "2026-09-09T22:46:21.906Z",
+        "analysis_ms": 0
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://webmail-l9k.pages.dev/",
+      "domain": "webmail-l9k.pages.dev",
+      "phish_score": 4,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.32",
+        "tld": ".dev",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 30,
+        "analyzed_at": "2026-09-09T22:46:21.914Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://acesso-net-empresas.net",
+      "domain": "acesso-net-empresas.net",
+      "phish_score": 4,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "medium",
+      "signals": [
+        "Multiple hyphens in domain",
+        "Suspicious URL pattern detected"
+      ],
+      "dimensions": {
+        "lexical_analysis": 10,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 15,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "3.20",
+        "tld": ".net",
+        "subdomain_depth": 0,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 31,
+        "analyzed_at": "2026-09-09T22:46:21.918Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://myaccmensualy.com/",
+      "domain": "myaccmensualy.com",
+      "phish_score": 0,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "3.09",
+        "tld": ".com",
+        "subdomain_depth": 0,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 26,
+        "analyzed_at": "2026-09-09T22:46:21.921Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "http://allegro.102988g8g8g.pl/lokalnie/?id=5x1b6F1w5U8Q6q3w8V6o2B9f7K2a2B4R",
+      "domain": "allegro.102988g8g8g.pl",
+      "phish_score": 28,
+      "verdict": "UNCERTAIN",
+      "risk_level": "medium",
+      "recommendation": "Proceed with caution. Verify the sender and destination before clicking.",
+      "confidence": "low",
+      "signals": [
+        "Brand name \"allegro\" embedded in suspicious domain"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 85,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.30",
+        "tld": ".pl",
+        "subdomain_depth": 1,
+        "brand_findings": [
+          {
+            "brand": "allegro",
+            "type": "contains",
+            "confidence": 85
+          }
+        ],
+        "homoglyphs": 0,
+        "url_length": 75,
+        "analyzed_at": "2026-09-09T22:46:21.927Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://sp19ct7-kaven-biz-surek-lodis.pages.dev/",
+      "domain": "sp19ct7-kaven-biz-surek-lodis.pages.dev",
+      "phish_score": 6,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "Suspicious URL pattern detected"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 15,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.32",
+        "tld": ".dev",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 48,
+        "analyzed_at": "2026-09-09T22:46:21.930Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://touralmarocco.it/blog/wp-admin/ar2gordib2o/",
+      "domain": "touralmarocco.it",
+      "phish_score": 4,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.87",
+        "tld": ".it",
+        "subdomain_depth": 0,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 51,
+        "analyzed_at": "2026-09-09T22:46:21.932Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://startsdesktop-ldgre.wixstudio.com/live",
+      "domain": "startsdesktop-ldgre.wixstudio.com",
+      "phish_score": 0,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.95",
+        "tld": ".com",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 46,
+        "analyzed_at": "2026-09-09T22:46:21.933Z",
+        "analysis_ms": 0
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://m-98373.com/index.php",
+      "domain": "m-98373.com",
+      "phish_score": 0,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.52",
+        "tld": ".com",
+        "subdomain_depth": 0,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 29,
+        "analyzed_at": "2026-09-09T22:46:21.939Z",
+        "analysis_ms": 0
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://mailling.dossiecolefranc.com/",
+      "domain": "mailling.dossiecolefranc.com",
+      "phish_score": 26,
+      "verdict": "UNCERTAIN",
+      "risk_level": "medium",
+      "recommendation": "Proceed with caution. Verify the sender and destination before clicking.",
+      "confidence": "medium",
+      "signals": [
+        "Elevated domain entropy (3.37)",
+        "Brand name \"ing\" embedded in suspicious domain"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 35,
+        "brand_impersonation": 85,
+        "tld_risk": 0,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "3.37",
+        "tld": ".com",
+        "subdomain_depth": 1,
+        "brand_findings": [
+          {
+            "brand": "ing",
+            "type": "contains",
+            "confidence": 85
+          }
+        ],
+        "homoglyphs": 0,
+        "url_length": 37,
+        "analyzed_at": "2026-09-09T22:46:21.941Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://webmailgasilecnetwebmailgasilecnetwebmail.weebly.com/",
+      "domain": "webmailgasilecnetwebmailgasilecnetwebmail.weebly.com",
+      "phish_score": 2,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "Suspicious URL pattern detected"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 15,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.25",
+        "tld": ".com",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 61,
+        "analyzed_at": "2026-09-09T22:46:21.942Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://guideconnect.ghost.io/bridge/",
+      "domain": "guideconnect.ghost.io",
+      "phish_score": 4,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.32",
+        "tld": ".io",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 37,
+        "analyzed_at": "2026-09-09T22:46:21.943Z",
+        "analysis_ms": 0
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://xcomcastlogin.weebly.com/",
+      "domain": "xcomcastlogin.weebly.com",
+      "phish_score": 24,
+      "verdict": "UNCERTAIN",
+      "risk_level": "medium",
+      "recommendation": "Proceed with caution. Verify the sender and destination before clicking.",
+      "confidence": "low",
+      "signals": [
+        "Brand name \"comcast\" embedded in suspicious domain"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 85,
+        "tld_risk": 0,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.25",
+        "tld": ".com",
+        "subdomain_depth": 1,
+        "brand_findings": [
+          {
+            "brand": "comcast",
+            "type": "contains",
+            "confidence": 85
+          }
+        ],
+        "homoglyphs": 0,
+        "url_length": 33,
+        "analyzed_at": "2026-09-09T22:46:21.950Z",
+        "analysis_ms": 0
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://shipment6836g.m1386033.pro/",
+      "domain": "shipment6836g.m1386033.pro",
+      "phish_score": 4,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.41",
+        "tld": ".pro",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 35,
+        "analyzed_at": "2026-09-09T22:46:21.952Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://pkobp.instantsystem.us/?fuesnPXG0FFPXfpUIPmhznHcgFvpApz_9c2J5xj-c3Iw9MGJGoVjKuulJOlE0hiT4mD0uH9g9mi_nfCbuRIgBoIcQOdhpaA_j9HQ7XpcCZgbMXhYkz_b6dvLh6K2N5kkEkxSuJLcm-0tIecsNWH3Dy7V6Zpun4RtgaueoX0",
+      "domain": "pkobp.instantsystem.us",
+      "phish_score": 8,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "Extremely long URL (obfuscation)"
+      ],
+      "dimensions": {
+        "lexical_analysis": 20,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.82",
+        "tld": ".us",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 199,
+        "analyzed_at": "2026-09-09T22:46:21.954Z",
+        "analysis_ms": 2
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://l.ead.me/bgc4rz",
+      "domain": "l.ead.me",
+      "phish_score": 4,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "1.58",
+        "tld": ".me",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 23,
+        "analyzed_at": "2026-09-09T22:46:21.955Z",
+        "analysis_ms": 0
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://dostawa2x.cam/o/ix118/7316975282811136#merchantpay",
+      "domain": "dostawa2x.cam",
+      "phish_score": 16,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "High-risk TLD \".cam\" — frequently abused in phishing campaigns"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 78,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.95",
+        "tld": ".cam",
+        "subdomain_depth": 0,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 58,
+        "analyzed_at": "2026-09-09T22:46:21.961Z",
+        "analysis_ms": 0
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://secupassinfo-caissedep.com/pages/mobile/securite/index.php",
+      "domain": "secupassinfo-caissedep.com",
+      "phish_score": 2,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "Elevated domain entropy (3.35)"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 35,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "3.35",
+        "tld": ".com",
+        "subdomain_depth": 0,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 66,
+        "analyzed_at": "2026-09-09T22:46:21.964Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://blockchnelogen.gitbook.io/usa/",
+      "domain": "blockchnelogen.gitbook.io",
+      "phish_score": 4,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.52",
+        "tld": ".io",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 38,
+        "analyzed_at": "2026-09-09T22:46:21.966Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://acessosnetempresas.sbs",
+      "domain": "acessosnetempresas.sbs",
+      "phish_score": 18,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "High-risk TLD \".sbs\" — frequently abused in phishing campaigns"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 90,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.97",
+        "tld": ".sbs",
+        "subdomain_depth": 0,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 30,
+        "analyzed_at": "2026-09-09T22:46:21.973Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://mysuietrezor.wixstudio.com/suite",
+      "domain": "mysuietrezor.wixstudio.com",
+      "phish_score": 0,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.95",
+        "tld": ".com",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 40,
+        "analyzed_at": "2026-09-09T22:46:21.974Z",
+        "analysis_ms": 0
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://desktop-en-ledgrs.wixstudio.com/live-en",
+      "domain": "desktop-en-ledgrs.wixstudio.com",
+      "phish_score": 2,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "Suspicious URL pattern detected"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 15,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.95",
+        "tld": ".com",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 47,
+        "analyzed_at": "2026-09-09T22:46:21.979Z",
+        "analysis_ms": 2
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://catom.digital/FnbHutch/",
+      "domain": "catom.digital",
+      "phish_score": 12,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "High-risk TLD \".digital\" — frequently abused in phishing campaigns"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 60,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.32",
+        "tld": ".digital",
+        "subdomain_depth": 0,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 31,
+        "analyzed_at": "2026-09-09T22:46:21.982Z",
+        "analysis_ms": 0
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://www.vam-sa.pt/forms/manice.html",
+      "domain": "www.vam-sa.pt",
+      "phish_score": 28,
+      "verdict": "UNCERTAIN",
+      "risk_level": "medium",
+      "recommendation": "Proceed with caution. Verify the sender and destination before clicking.",
+      "confidence": "low",
+      "signals": [
+        "Brand name \"va\" embedded in suspicious domain"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 85,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.25",
+        "tld": ".pt",
+        "subdomain_depth": 1,
+        "brand_findings": [
+          {
+            "brand": "va",
+            "type": "contains",
+            "confidence": 85
+          }
+        ],
+        "homoglyphs": 0,
+        "url_length": 39,
+        "analyzed_at": "2026-09-09T22:46:21.983Z",
+        "analysis_ms": 0
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://apps-taetetrade.wixstudio.com/us-en",
+      "domain": "apps-taetetrade.wixstudio.com",
+      "phish_score": 0,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.95",
+        "tld": ".com",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 43,
+        "analyzed_at": "2026-09-09T22:46:21.993Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://qrco.de/bgaZNv",
+      "domain": "qrco.de",
+      "phish_score": 19,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "URL shortener \"qrco.de\" detected — true destination hidden"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 80
+      },
+      "metadata": {
+        "entropy": "2.00",
+        "tld": ".de",
+        "subdomain_depth": 0,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 22,
+        "analyzed_at": "2026-09-09T22:46:21.995Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://www.dpdlocazt.cyou/com/",
+      "domain": "www.dpdlocazt.cyou",
+      "phish_score": 19,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "High-risk TLD \".cyou\" — frequently abused in phishing campaigns"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 93,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.95",
+        "tld": ".cyou",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 31,
+        "analyzed_at": "2026-09-09T22:46:21.998Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "http://3yz2-zjubz-zcus-wkv7fh-fnh.pages.dev/",
+      "domain": "3yz2-zjubz-zcus-wkv7fh-fnh.pages.dev",
+      "phish_score": 6,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "Suspicious URL pattern detected"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 15,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.32",
+        "tld": ".dev",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 44,
+        "analyzed_at": "2026-09-09T22:46:22.000Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://verify2026zimbra.weebly.com/",
+      "domain": "verify2026zimbra.weebly.com",
+      "phish_score": 0,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.25",
+        "tld": ".com",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 36,
+        "analyzed_at": "2026-09-09T22:46:22.002Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://browser-metamaskcdn.wixstudio.com/us-en",
+      "domain": "browser-metamaskcdn.wixstudio.com",
+      "phish_score": 24,
+      "verdict": "UNCERTAIN",
+      "risk_level": "medium",
+      "recommendation": "Proceed with caution. Verify the sender and destination before clicking.",
+      "confidence": "low",
+      "signals": [
+        "Brand name \"meta\" embedded in suspicious domain"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 85,
+        "tld_risk": 0,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.95",
+        "tld": ".com",
+        "subdomain_depth": 1,
+        "brand_findings": [
+          {
+            "brand": "meta",
+            "type": "contains",
+            "confidence": 85
+          }
+        ],
+        "homoglyphs": 0,
+        "url_length": 47,
+        "analyzed_at": "2026-09-09T22:46:22.006Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://37jeyr4.top/gi7ywruc/eHVPyX/caZW4R",
+      "domain": "37jeyr4.top",
+      "phish_score": 18,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "High-risk TLD \".top\" — frequently abused in phishing campaigns"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 88,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.81",
+        "tld": ".top",
+        "subdomain_depth": 0,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 42,
+        "analyzed_at": "2026-09-09T22:46:22.008Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://www.dpdlocakn.shop/com/",
+      "domain": "www.dpdlocakn.shop",
+      "phish_score": 4,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.95",
+        "tld": ".shop",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 31,
+        "analyzed_at": "2026-09-09T22:46:22.010Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://qrco.de/bgbZ74",
+      "domain": "qrco.de",
+      "phish_score": 19,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "URL shortener \"qrco.de\" detected — true destination hidden"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 80
+      },
+      "metadata": {
+        "entropy": "2.00",
+        "tld": ".de",
+        "subdomain_depth": 0,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 22,
+        "analyzed_at": "2026-09-09T22:46:22.014Z",
+        "analysis_ms": 0
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://cmbrmotchecks.vercel.app/",
+      "domain": "cmbrmotchecks.vercel.app",
+      "phish_score": 4,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.25",
+        "tld": ".app",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 33,
+        "analyzed_at": "2026-09-09T22:46:22.016Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://secure.cloudxguard.com/en/bp-053-2-27cxg?tid=3dd36ecc-6d08-4950-b0aa-d297499943a1&bid=8949a344-19d9-47e1-8e24-801246eb3ad7&obid=931cbc58-1753-4f8f-b5d2-3d946e70efca&errcode=104&language=en-US&error=1",
+      "domain": "secure.cloudxguard.com",
+      "phish_score": 4,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "Extremely long URL (obfuscation)"
+      ],
+      "dimensions": {
+        "lexical_analysis": 20,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "3.10",
+        "tld": ".com",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 207,
+        "analyzed_at": "2026-09-09T22:46:22.021Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "http://allegro-lokalnie.pl-93758.click",
+      "domain": "allegro-lokalnie.pl-93758.click",
+      "phish_score": 41,
+      "verdict": "SUSPICIOUS",
+      "risk_level": "high",
+      "recommendation": "Treat with extreme caution. Verify through official channels before proceeding.",
+      "confidence": "medium",
+      "signals": [
+        "Brand name \"allegro\" embedded in suspicious domain",
+        "High-risk TLD \".click\" — frequently abused in phishing campaigns"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 85,
+        "tld_risk": 85,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "3.00",
+        "tld": ".click",
+        "subdomain_depth": 1,
+        "brand_findings": [
+          {
+            "brand": "allegro",
+            "type": "contains",
+            "confidence": 85
+          }
+        ],
+        "homoglyphs": 0,
+        "url_length": 38,
+        "analyzed_at": "2026-09-09T22:46:22.026Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://sp11ct-morvek-biz8-seltra-quenix.pages.dev/",
+      "domain": "sp11ct-morvek-biz8-seltra-quenix.pages.dev",
+      "phish_score": 6,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "Suspicious URL pattern detected"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 15,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.32",
+        "tld": ".dev",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 51,
+        "analyzed_at": "2026-09-09T22:46:22.029Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "http://sp19ct7-safem-biz-lurex-donik.pages.dev/",
+      "domain": "sp19ct7-safem-biz-lurex-donik.pages.dev",
+      "phish_score": 6,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "Suspicious URL pattern detected"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 15,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.32",
+        "tld": ".dev",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 47,
+        "analyzed_at": "2026-09-09T22:46:22.030Z",
+        "analysis_ms": 0
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "http://new-ledzrlive.wixstudio.com/us-en",
+      "domain": "new-ledzrlive.wixstudio.com",
+      "phish_score": 0,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.95",
+        "tld": ".com",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 40,
+        "analyzed_at": "2026-09-09T22:46:22.039Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://arizona.gov-nazd.help/",
+      "domain": "arizona.gov-nazd.help",
+      "phish_score": 14,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "High-risk TLD \".help\" — frequently abused in phishing campaigns"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 70,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "3.00",
+        "tld": ".help",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 30,
+        "analyzed_at": "2026-09-09T22:46:22.041Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://startin-ledgrecdn.wixstudio.com/en-us",
+      "domain": "startin-ledgrecdn.wixstudio.com",
+      "phish_score": 0,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.95",
+        "tld": ".com",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 45,
+        "analyzed_at": "2026-09-09T22:46:22.045Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://qrco.de/bgbJDC",
+      "domain": "qrco.de",
+      "phish_score": 19,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "URL shortener \"qrco.de\" detected — true destination hidden"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 80
+      },
+      "metadata": {
+        "entropy": "2.00",
+        "tld": ".de",
+        "subdomain_depth": 0,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 22,
+        "analyzed_at": "2026-09-09T22:46:22.049Z",
+        "analysis_ms": 0
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://usittoro.wixstudio.com/us-en",
+      "domain": "usittoro.wixstudio.com",
+      "phish_score": 0,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.95",
+        "tld": ".com",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 36,
+        "analyzed_at": "2026-09-09T22:46:22.052Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://areaacity.pswci2.info/m6RqpT",
+      "domain": "areaacity.pswci2.info",
+      "phish_score": 12,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "High-risk TLD \".info\" — frequently abused in phishing campaigns"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 60,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.58",
+        "tld": ".info",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 36,
+        "analyzed_at": "2026-09-09T22:46:22.055Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://startioweb-trezscdn.wixstudio.com/us-en",
+      "domain": "startioweb-trezscdn.wixstudio.com",
+      "phish_score": 0,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 0,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.95",
+        "tld": ".com",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 47,
+        "analyzed_at": "2026-09-09T22:46:22.057Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "http://www.allegrolokalne.20120oe.shop",
+      "domain": "www.allegrolokalne.20120oe.shop",
+      "phish_score": 28,
+      "verdict": "UNCERTAIN",
+      "risk_level": "medium",
+      "recommendation": "Proceed with caution. Verify the sender and destination before clicking.",
+      "confidence": "low",
+      "signals": [
+        "Brand name \"allegro\" embedded in suspicious domain"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 85,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.24",
+        "tld": ".shop",
+        "subdomain_depth": 2,
+        "brand_findings": [
+          {
+            "brand": "allegro",
+            "type": "contains",
+            "confidence": 85
+          }
+        ],
+        "homoglyphs": 0,
+        "url_length": 38,
+        "analyzed_at": "2026-09-09T22:46:22.060Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://www.gov-parkingeu.shop/com",
+      "domain": "www.gov-parkingeu.shop",
+      "phish_score": 30,
+      "verdict": "UNCERTAIN",
+      "risk_level": "medium",
+      "recommendation": "Proceed with caution. Verify the sender and destination before clicking.",
+      "confidence": "medium",
+      "signals": [
+        "Elevated domain entropy (3.55)",
+        "Brand name \"ing\" embedded in suspicious domain"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 35,
+        "brand_impersonation": 85,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "3.55",
+        "tld": ".shop",
+        "subdomain_depth": 1,
+        "brand_findings": [
+          {
+            "brand": "ing",
+            "type": "contains",
+            "confidence": 85
+          }
+        ],
+        "homoglyphs": 0,
+        "url_length": 34,
+        "analyzed_at": "2026-09-09T22:46:22.062Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://vt.jhgbvfr.cyou/",
+      "domain": "vt.jhgbvfr.cyou",
+      "phish_score": 20,
+      "verdict": "UNCERTAIN",
+      "risk_level": "medium",
+      "recommendation": "Proceed with caution. Verify the sender and destination before clicking.",
+      "confidence": "medium",
+      "signals": [
+        "Unusual consonant/vowel ratio — possible generated domain",
+        "High-risk TLD \".cyou\" — frequently abused in phishing campaigns"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 25,
+        "brand_impersonation": 0,
+        "tld_risk": 93,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.81",
+        "tld": ".cyou",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 24,
+        "analyzed_at": "2026-09-09T22:46:22.063Z",
+        "analysis_ms": 0
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://l.wl.co/l?u=https://qr-codes.io/ABt3V2",
+      "domain": "l.wl.co",
+      "phish_score": 11,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "Multiple URLs embedded — redirect chain (2 URLs)"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 0,
+        "redirect_risk": 35
+      },
+      "metadata": {
+        "entropy": "1.00",
+        "tld": ".co",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 46,
+        "analyzed_at": "2026-09-09T22:46:22.068Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "https://t-mobile.tdcvfg.autos/",
+      "domain": "t-mobile.tdcvfg.autos",
+      "phish_score": 39,
+      "verdict": "UNCERTAIN",
+      "risk_level": "medium",
+      "recommendation": "Proceed with caution. Verify the sender and destination before clicking.",
+      "confidence": "medium",
+      "signals": [
+        "Unusual consonant/vowel ratio — possible generated domain",
+        "Brand name \"td\" embedded in suspicious domain",
+        "High-risk TLD \".autos\" — frequently abused in phishing campaigns"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 25,
+        "brand_impersonation": 85,
+        "tld_risk": 70,
+        "structural_anomalies": 0,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.58",
+        "tld": ".autos",
+        "subdomain_depth": 1,
+        "brand_findings": [
+          {
+            "brand": "td",
+            "type": "contains",
+            "confidence": 85
+          }
+        ],
+        "homoglyphs": 0,
+        "url_length": 30,
+        "analyzed_at": "2026-09-09T22:46:22.071Z",
+        "analysis_ms": 2
+      },
+      "domain_age": {
+        "available": false
+      }
+    },
+    {
+      "url": "http://sp12ct-hordik-biz-kamsel-frondor.pages.dev/",
+      "domain": "sp12ct-hordik-biz-kamsel-frondor.pages.dev",
+      "phish_score": 6,
+      "verdict": "LIKELY SAFE",
+      "risk_level": "low",
+      "recommendation": "No significant phishing indicators detected. Standard caution applies.",
+      "confidence": "low",
+      "signals": [
+        "Suspicious URL pattern detected"
+      ],
+      "dimensions": {
+        "lexical_analysis": 0,
+        "domain_entropy": 5,
+        "brand_impersonation": 0,
+        "tld_risk": 20,
+        "structural_anomalies": 15,
+        "redirect_risk": 0
+      },
+      "metadata": {
+        "entropy": "2.32",
+        "tld": ".dev",
+        "subdomain_depth": 1,
+        "brand_findings": [],
+        "homoglyphs": 0,
+        "url_length": 50,
+        "analyzed_at": "2026-09-09T22:46:22.077Z",
+        "analysis_ms": 1
+      },
+      "domain_age": {
+        "available": false
+      }
+    }
+  ]
+}
